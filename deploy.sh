@@ -13,6 +13,7 @@ NC='\033[0m'
 echo -e "${BLUE}Shutting down old daemon...${NC}"
 cd ganja > /dev/null 2>&1
 ./ganjacoin-cli stop > /dev/null 2>&1
+echo -e "${GREEN}Done${NC}"
 echo -e "${BLUE}Deleting Old Daemons...${NC}"
 rm -rf ganjacoind > /dev/null 2>&1
 rm -rf ganjacoin-cli > /dev/null 2>&1
