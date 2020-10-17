@@ -21,8 +21,8 @@ echo -e "${GREEN}Done${NC}"
 
 echo
 echo -e "${BLUE}Downloading new daemons...${NC}"
-wget https://ganjacoin.com/downloads/ganjacoind > /dev/null 2>&1
-wget https://ganjacoin.com/downloads/ganjacoin-cli > /dev/null 2>&1
+wget https://ganjacoinpro.com/downloads/ganjacoind > /dev/null 2>&1
+wget https://ganjacoinpro.com/downloads/ganjacoin-cli > /dev/null 2>&1
 chmod +x ganjacoin-cli
 chmod +x ganjacoind > /dev/null 2>&1
 echo -e "${GREEN}Done${NC}"
